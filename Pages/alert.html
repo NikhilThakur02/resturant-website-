@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Custom Alert</title>
+    <link rel="stylesheet" href="/css/alert.css">
+</head>
+<body>
+
+<!-- Custom Alert Box -->
+<div id="customAlert" class="alert-box">
+    <div class="alert-content">
+        <span class="close-btn" onclick="closeAlert()">×</span>
+        <h2>Alert!</h2>
+        <p id="alertMessage">This is a custom alert message!</p>
+        <button onclick="closeAlert()">Got It</button>
+    </div>
+</div>
+
+<!-- Trigger Button -->
+<button class="trigger-btn" onclick="showAlert('You have a new notification!')">Show Custom Alert</button>
+
+<script src="/js/alert.js"></script>
+</body>
+</html>
